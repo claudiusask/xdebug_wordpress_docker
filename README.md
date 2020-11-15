@@ -1,4 +1,4 @@
-# Wordpress Docker xDebug Boilerplate
+# Wordpress Docker xDebug  not on WSL Boilerplate
 
 This boilerplate is to debug Wordpress websites using Docker and VSCode
 
