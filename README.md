@@ -33,5 +33,5 @@ $ docker-compose up
 
 > Use https://github.com/silverfoxy/wsl2_host_ip for WSL2 auto IP Address update on every restart of Win-10.
 
-> on Ubuntu WSL2 system run sudo setfacl -Rm u:ubuntu-username:rwx,d:u:ubuntu-username:rwx sitez/ so we can Edit, debug and save all in just one Vscode window.
+> on Ubuntu WSL2 system run ***sudo setfacl -Rm u:ubuntu-username:rwx,d:u:ubuntu-username:rwx volume-folder/*** so we can Edit, debug and save all in just one Vscode window.
 
