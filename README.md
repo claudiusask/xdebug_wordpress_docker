@@ -9,8 +9,7 @@ This works on windows and also WSL2, but with wsl2 there is a problem of IP addr
 > Make sure Docker is running and the [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug) extension for VSCode is installed
 
 > Install PHP and Xdebug on WSL2 main machine.
-> Make sure to use WSL2 ip address of main Ubuntu (main machine which docker is using), and update it in docker-compose.yml. This IP address is changed everytime 
-> the windows 10 restarts.
+> Make sure to use WSL2 ip address of Host machine (windows 10), and update it in docker-compose.yml. This IP address is changed everytime the windows 10 restarts.
 > also update the .vscode/launch.json whith the volume used for wordpress.
 
 
@@ -32,4 +31,4 @@ $ docker-compose up
 
 > Run and Open the project in VSCode inside Windows 10 host machine not WSL2.
 
-> Use https://github.com/silverfoxy/wsl2_host_ip for WSL2 auto IP Address update.
+> Use https://github.com/silverfoxy/wsl2_host_ip for WSL2 auto IP Address update on every restart of Win-10.
