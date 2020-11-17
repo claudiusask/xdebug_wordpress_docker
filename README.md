@@ -26,7 +26,7 @@ $ docker-compose up
 4. Set anywhere in your PHP files a breakpoint
 
 ##
-#BEST setup for mey projects
+#BEST setup for my projects
 
 > Run and keep docker volumes in WSL2 machine (Ubuntu). Do not save on windows for better performance.
 
