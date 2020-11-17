@@ -24,3 +24,12 @@ $ docker-compose up
 3. Open the debugger tab on the sidebar and run `Listen for XDebug`
 
 4. Set anywhere in your PHP files a breakpoint
+
+##
+#BEST setup for mey projects
+
+> Run and keep docker volumes in WSL2 machine (Ubuntu). Do not save on windows for better performance.
+
+> Run and Open the project in VSCode inside Windows 10 host machine not WSL2.
+
+> Use https://github.com/silverfoxy/wsl2_host_ip for WSL2 auto IP Address update.
