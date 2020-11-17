@@ -32,3 +32,6 @@ $ docker-compose up
 > Run and Open the project in VSCode inside Windows 10 host machine not WSL2.
 
 > Use https://github.com/silverfoxy/wsl2_host_ip for WSL2 auto IP Address update on every restart of Win-10.
+
+> on Ubuntu WSL2 system run sudo setfacl -Rm u:ubuntu-username:rwx,d:u:ubuntu-username:rwx sitez/ so we can Edit, debug and save all in just one Vscode window.
+
