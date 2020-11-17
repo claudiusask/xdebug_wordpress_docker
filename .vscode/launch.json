@@ -9,6 +9,8 @@
           "type": "php",
           "request": "launch",
           "port": 9000,
+            // Port Mapping is very important. install php and xdebug in wsl Ubuntu, 
+            // and change the ${workspaceFolder}/cms in the below line to the dockers working directory volume 
           "pathMappings": {
               "/var/www/html": "${workspaceFolder}/cms"
           },
