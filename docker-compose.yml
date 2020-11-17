@@ -41,6 +41,7 @@ services:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
+      # use the wsl ubuntu (main machine docker is using) ip address in place of host.docker.internal below.
       XDEBUG_CONFIG: remote_host=host.docker.internal remote_port=9000 remote_enable=1
       PHP_EXTENSION_XDEBUG: 1
     #networks:
